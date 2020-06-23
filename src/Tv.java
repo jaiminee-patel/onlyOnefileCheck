@@ -2,6 +2,10 @@ public class Tv {
     boolean powerStatus;
     int liveChannel;
 
+    public static void main(String[] args) {
+        System.out.println("this is changed file");
+    }
+
     public Tv(boolean powerStatus, int liveChannel) {
         this.powerStatus = powerStatus;
         this.liveChannel = liveChannel;
